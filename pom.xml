@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright The WildFly Authors
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jboss</groupId>
+        <artifactId>jboss-parent</artifactId>
+        <version>43</version>
+    </parent>
+
+    <groupId>org.wildfly.security.authentication-epicyro</groupId>
+    <artifactId>authentication-epicyro-parent</artifactId>
+    <version>1.0.0.Alpha1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>WildFly Jakarta Authentication with Epicyro -- Parent</name>
+    <description>Parent pom for producing a Galleon feature pack for including a Jakarta Authentication capability using Eclipse Epicyro into a WildFly installation.</description>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:${git.repo.scm.connection}</connection>
+        <developerConnection>scm:git:${git.repo.scm.connection}</developerConnection>
+        <url>${wildfly-extras.repo.scm.url}</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <!-- Require Java 17 -->
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.release>17</maven.compiler.release>
+
+        <!-- TODO Change the github org to new organisation once repo ownership is transferred -->
+        <git.repo.scm.connection>git@github.com:darranl/authentication-epicyro.git</git.repo.scm.connection>
+        <git.repo.scm.url>https://github.com/darranl/authentication-epicyro</git.repo.scm.url>
+
+    </properties>
+
+    <!-- NOTE: Only include production code build dependencies here; use testsuite/pom.xml for test dependencies -->
+
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <modules>
+        <module>subsystem</module>
+    </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+            </plugins>
+        </pluginManagement>
+    </build>
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+            <id>jboss-public-repository-group</id>
+            <name>JBoss Public Repository Group</name>
+            <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>jboss-public-repository-group</id>
+            <name>JBoss Public Repository Group</name>
+            <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+</project>
