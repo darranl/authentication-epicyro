@@ -278,7 +278,7 @@
               </manifest>
               <manifestEntries>
                 <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                <Java-Version>17.0.11</Java-Version>
+                <Java-Version>11.0.23</Java-Version>
                 <Java-Vendor>Red Hat, Inc.</Java-Vendor>
                 <Os-Name>Linux</Os-Name>
                 <Os-Arch>amd64</Os-Arch>
@@ -318,7 +318,7 @@
               </manifest>
               <manifestEntries>
                 <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                <Java-Version>17.0.11</Java-Version>
+                <Java-Version>11.0.23</Java-Version>
                 <Java-Vendor>Red Hat, Inc.</Java-Vendor>
                 <Os-Name>Linux</Os-Name>
                 <Os-Arch>amd64</Os-Arch>
@@ -405,7 +405,7 @@
               </manifest>
               <manifestEntries>
                 <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                <Java-Version>17.0.11</Java-Version>
+                <Java-Version>11.0.23</Java-Version>
                 <Java-Vendor>Red Hat, Inc.</Java-Vendor>
                 <Os-Name>Linux</Os-Name>
                 <Os-Arch>amd64</Os-Arch>
@@ -476,7 +476,7 @@
               </manifest>
               <manifestEntries>
                 <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                <Java-Version>17.0.11</Java-Version>
+                <Java-Version>11.0.23</Java-Version>
                 <Scm-Url>${wildfly-extras.repo.scm.url}</Scm-Url>
                 <Scm-Connection>scm:git:git@github.com:darranl/authentication-epicyro.git</Scm-Connection>
                 <Scm-Revision>${buildNumber}</Scm-Revision>
@@ -498,7 +498,7 @@
               </manifest>
               <manifestEntries>
                 <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                <Java-Version>17.0.11</Java-Version>
+                <Java-Version>11.0.23</Java-Version>
                 <Java-Vendor>Red Hat, Inc.</Java-Vendor>
                 <Os-Name>Linux</Os-Name>
                 <Os-Arch>amd64</Os-Arch>
@@ -571,7 +571,7 @@
               </manifest>
               <manifestEntries>
                 <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                <Java-Version>17.0.11</Java-Version>
+                <Java-Version>11.0.23</Java-Version>
                 <Java-Vendor>Red Hat, Inc.</Java-Vendor>
                 <Os-Name>Linux</Os-Name>
                 <Os-Arch>amd64</Os-Arch>
@@ -617,7 +617,7 @@
               </manifest>
               <manifestEntries>
                 <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                <Java-Version>17.0.11</Java-Version>
+                <Java-Version>11.0.23</Java-Version>
                 <Java-Vendor>Red Hat, Inc.</Java-Vendor>
                 <Os-Name>Linux</Os-Name>
                 <Os-Arch>amd64</Os-Arch>
@@ -770,7 +770,7 @@
                 </manifest>
                 <manifestEntries>
                   <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                  <Java-Version>17.0.11</Java-Version>
+                  <Java-Version>11.0.23</Java-Version>
                   <Java-Vendor>Red Hat, Inc.</Java-Vendor>
                   <Os-Name>Linux</Os-Name>
                   <Os-Arch>amd64</Os-Arch>
@@ -792,7 +792,7 @@
             </manifest>
             <manifestEntries>
               <Implementation-URL>http://www.jboss.org</Implementation-URL>
-              <Java-Version>17.0.11</Java-Version>
+              <Java-Version>11.0.23</Java-Version>
               <Java-Vendor>Red Hat, Inc.</Java-Vendor>
               <Os-Name>Linux</Os-Name>
               <Os-Arch>amd64</Os-Arch>
@@ -815,15 +815,6 @@
               <goal>test</goal>
             </goals>
             <configuration>
-              <classesDirectory>/home/darranl/src/JakartaEE11_Security/authentication-epicyro/subsystem/target/classes/META-INF/versions/17</classesDirectory>
-              <additionalClasspathElements>
-                <additionalClasspathElement>/home/darranl/src/JakartaEE11_Security/authentication-epicyro/subsystem/target/classes/META-INF/versions/16</additionalClasspathElement>
-                <additionalClasspathElement>/home/darranl/src/JakartaEE11_Security/authentication-epicyro/subsystem/target/classes/META-INF/versions/15</additionalClasspathElement>
-                <additionalClasspathElement>/home/darranl/src/JakartaEE11_Security/authentication-epicyro/subsystem/target/classes/META-INF/versions/14</additionalClasspathElement>
-                <additionalClasspathElement>/home/darranl/src/JakartaEE11_Security/authentication-epicyro/subsystem/target/classes/META-INF/versions/13</additionalClasspathElement>
-                <additionalClasspathElement>/home/darranl/src/JakartaEE11_Security/authentication-epicyro/subsystem/target/classes/META-INF/versions/12</additionalClasspathElement>
-                <additionalClasspathElement>/home/darranl/src/JakartaEE11_Security/authentication-epicyro/subsystem/target/classes</additionalClasspathElement>
-              </additionalClasspathElements>
               <trimStackTrace>false</trimStackTrace>
               <systemPropertyVariables>
                 <java.io.tmpdir>/home/darranl/src/JakartaEE11_Security/authentication-epicyro/subsystem/target</java.io.tmpdir>
@@ -890,7 +881,7 @@
                 </manifest>
                 <manifestEntries>
                   <Implementation-URL>http://www.jboss.org</Implementation-URL>
-                  <Java-Version>17.0.11</Java-Version>
+                  <Java-Version>11.0.23</Java-Version>
                   <Scm-Url>${wildfly-extras.repo.scm.url}</Scm-Url>
                   <Scm-Connection>scm:git:git@github.com:darranl/authentication-epicyro.git</Scm-Connection>
                   <Scm-Revision>${buildNumber}</Scm-Revision>
@@ -908,7 +899,7 @@
             </manifest>
             <manifestEntries>
               <Implementation-URL>http://www.jboss.org</Implementation-URL>
-              <Java-Version>17.0.11</Java-Version>
+              <Java-Version>11.0.23</Java-Version>
               <Scm-Url>${wildfly-extras.repo.scm.url}</Scm-Url>
               <Scm-Connection>scm:git:git@github.com:darranl/authentication-epicyro.git</Scm-Connection>
               <Scm-Revision>${buildNumber}</Scm-Revision>
